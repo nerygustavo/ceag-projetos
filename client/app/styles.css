@@ -1,0 +1,43 @@
+.body{
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica";
+}
+.rooms{
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+}
+
+.room{
+  flex-basis: 50%;
+  margin: 5px;
+
+  background-color: #c6eb94;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  height: 200px;
+}
+.gauges {
+  display: flex;
+  text-align: center;
+}
+
+.flex1{
+  flex: 1;
+}
+
+.name{
+  color: #73AD21;
+  font-size: 20px;
+  text-align: center;
+}
+
+.conectada {
+  background-color: #c6eb94;
+}
+.desconectada {
+  background-color: #e6e6e6;
+}
+.ocupada {
+  background-color: #ff9999;
+}
